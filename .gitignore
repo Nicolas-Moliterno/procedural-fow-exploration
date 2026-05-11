@@ -1,3 +1,13 @@
+# Large datasets and generated outputs
+data/
+dataBFS/
+dataHunter/
+dataRandom/
+analysis_output/
+
+# CSV files
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +226,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+data*/positions.csv
